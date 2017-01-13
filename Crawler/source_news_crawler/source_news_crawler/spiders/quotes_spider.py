@@ -21,10 +21,10 @@ class News_Spider(scrapy.Spider):
 
     def insertIntoDB(self, linkList):
 
-            server = 'DESKTOP-179PUIN\SQLEXPRESS'
-            database = 'SearchNewsCrawlerData'
-            username = 'sa'
-            password = '1SQL2012PA$$0rd@*oo*#'
+            server = 'server name'
+            database = 'db'
+            username = 'username'
+            password = 'pass'
             driver= '{SQL Server}'
             cnxn = pyodbc.connect('DRIVER='+driver+';PORT=1433;SERVER='+server+';PORT=1443;DATABASE='+database+';UID='+username+';PWD='+ password)
 
