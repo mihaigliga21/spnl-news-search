@@ -1,0 +1,10 @@
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\News_Search_DAL.exe.config
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\News_Search_DAL.exe
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\News_Search_DAL.pdb
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\EntityFramework.dll
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\EntityFramework.xml
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.csprojResolveAssemblyReference.cache
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.exe
+C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.pdb

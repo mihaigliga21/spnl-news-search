@@ -1,0 +1,44 @@
+﻿@using SPNL_Tema_NewsOriginSearch_API.Controllers
+@using SPNL_Tema_NewsOriginSearch_API.Models
+@model SPNL_Tema_NewsOriginSearch_API.Models.Markets
+@Scripts.Render("~/bundles/app")
+
+<div class="jumbotron">
+    <h1>SPNL News Search Api v1 - Demo</h1>
+</div>
+<div class="row">
+    <form id="articleForm" method="get">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label>Insert article title</label>
+                <input type="text" class="form-control" id="queryArticleTitle" style="max-width: 100% !important;">
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    @{
+                        NewsController newsController = new NewsController();
+                        IEnumerable<Markets> markets = newsController.GetMarkets();
+                        IEnumerable<SelectListItem> marketListItems = markets.Select(x => new SelectListItem() { Text = x.Name, Value = x.Code });
+                    }
+                    @Html.DropDownList("Select market", marketListItems, "Select market (optional)")
+                </div>
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-success" id="btnSearchArticle" style="margin-left: 5px;" onclick="MakeSearch();">Search article source</button>
+                </div>
+            </div>
+            @*show data*@
+            <div style="margin-top: 10px;">
+                <h2>Results</h2>
+                <ul id="articles"></ul>
+            </div>
+        </div>
+    </form>
+</div>
+
+@*section Waiting*@
+<div id="sectionWaiting" class="section-loading">
+    <label class="label-success" style="margin-left: 21px;">Loading.</label>
+    <div class="loaderModal">
+        <img src="/fonts/loader.gif" />
+    </div>
+</div>

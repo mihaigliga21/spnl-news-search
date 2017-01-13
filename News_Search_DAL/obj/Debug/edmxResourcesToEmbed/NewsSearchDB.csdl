@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SearchNewsCrawlerDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LinksTable">
+    <Key>
+      <PropertyRef Name="LinkAdress" />
+      <PropertyRef Name="DateAdded" />
+    </Key>
+    <Property Name="LinkAdress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="HasIndexed" Type="Int32" />
+    <Property Name="LastIndexedDay" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="SearchNewsCrawlerDataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LinksTables" EntityType="Self.LinksTable" />
+  </EntityContainer>
+</Schema>

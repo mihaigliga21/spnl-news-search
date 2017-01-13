@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SearchNewsCrawlerDataModelStoreContainer" CdmEntityContainer="SearchNewsCrawlerDataEntities">
+    <EntitySetMapping Name="LinksTables">
+      <EntityTypeMapping TypeName="SearchNewsCrawlerDataModel.LinksTable">
+        <MappingFragment StoreEntitySet="LinksTable">
+          <ScalarProperty Name="LinkAdress" ColumnName="LinkAdress" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+          <ScalarProperty Name="HasIndexed" ColumnName="HasIndexed" />
+          <ScalarProperty Name="LastIndexedDay" ColumnName="LastIndexedDay" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
