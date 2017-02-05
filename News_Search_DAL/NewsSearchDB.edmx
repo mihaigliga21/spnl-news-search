@@ -4,15 +4,17 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="SearchNewsCrawlerDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="SearchNewsCrawlerDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <!--Errors Found During Generation:
 warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="LinksTable">
           <Key>
+            <PropertyRef Name="Id" />
             <PropertyRef Name="LinkAdress" />
             <PropertyRef Name="DateAdded" />
           </Key>
-          <Property Name="LinkAdress" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="LinkAdress" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="DateAdded" Type="datetime" Nullable="false" />
           <Property Name="HasIndexed" Type="int" />
           <Property Name="LastIndexedDay" Type="datetime" />
@@ -20,6 +22,7 @@ warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not hav
         <EntityContainer Name="SearchNewsCrawlerDataModelStoreContainer">
           <EntitySet Name="LinksTable" EntityType="Self.LinksTable" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
+    [LinksTable].[Id] AS [Id], 
     [LinksTable].[LinkAdress] AS [LinkAdress], 
     [LinksTable].[DateAdded] AS [DateAdded], 
     [LinksTable].[HasIndexed] AS [HasIndexed], 
@@ -27,8 +30,7 @@ warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not hav
     FROM [dbo].[LinksTable] AS [LinksTable]</DefiningQuery>
           </EntitySet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="SearchNewsCrawlerDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -36,11 +38,13 @@ warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not hav
           <Key>
             <PropertyRef Name="LinkAdress" />
             <PropertyRef Name="DateAdded" />
+            <PropertyRef Name="Id" />
           </Key>
-          <Property Name="LinkAdress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LinkAdress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="HasIndexed" Type="Int32" />
           <Property Name="LastIndexedDay" Type="DateTime" Precision="3" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
         </EntityType>
         <EntityContainer Name="SearchNewsCrawlerDataEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="LinksTables" EntityType="Self.LinksTable" />
@@ -54,6 +58,7 @@ warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not hav
           <EntitySetMapping Name="LinksTables">
             <EntityTypeMapping TypeName="SearchNewsCrawlerDataModel.LinksTable">
               <MappingFragment StoreEntitySet="LinksTable">
+                <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="LinkAdress" ColumnName="LinkAdress" />
                 <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
                 <ScalarProperty Name="HasIndexed" ColumnName="HasIndexed" />

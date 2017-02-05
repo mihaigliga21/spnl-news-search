@@ -4,6 +4,7 @@
     <EntitySetMapping Name="LinksTables">
       <EntityTypeMapping TypeName="SearchNewsCrawlerDataModel.LinksTable">
         <MappingFragment StoreEntitySet="LinksTable">
+          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="LinkAdress" ColumnName="LinkAdress" />
           <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
           <ScalarProperty Name="HasIndexed" ColumnName="HasIndexed" />

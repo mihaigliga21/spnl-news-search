@@ -4,10 +4,12 @@
 warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="LinksTable">
     <Key>
+      <PropertyRef Name="Id" />
       <PropertyRef Name="LinkAdress" />
       <PropertyRef Name="DateAdded" />
     </Key>
-    <Property Name="LinkAdress" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LinkAdress" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="DateAdded" Type="datetime" Nullable="false" />
     <Property Name="HasIndexed" Type="int" />
     <Property Name="LastIndexedDay" Type="datetime" />
@@ -15,6 +17,7 @@ warning 6002: The table/view 'SearchNewsCrawlerData.dbo.LinksTable' does not hav
   <EntityContainer Name="SearchNewsCrawlerDataModelStoreContainer">
     <EntitySet Name="LinksTable" EntityType="Self.LinksTable" store:Type="Tables" store:Schema="dbo">
       <DefiningQuery>SELECT 
+    [LinksTable].[Id] AS [Id], 
     [LinksTable].[LinkAdress] AS [LinkAdress], 
     [LinksTable].[DateAdded] AS [DateAdded], 
     [LinksTable].[HasIndexed] AS [HasIndexed], 

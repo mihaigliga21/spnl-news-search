@@ -18,5 +18,6 @@ namespace News_Search_DAL
         public System.DateTime DateAdded { get; set; }
         public Nullable<int> HasIndexed { get; set; }
         public Nullable<System.DateTime> LastIndexedDay { get; set; }
+        public int Id { get; set; }
     }
 }

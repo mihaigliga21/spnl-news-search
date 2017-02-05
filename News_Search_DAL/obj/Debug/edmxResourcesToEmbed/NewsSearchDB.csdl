@@ -4,11 +4,13 @@
     <Key>
       <PropertyRef Name="LinkAdress" />
       <PropertyRef Name="DateAdded" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="LinkAdress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LinkAdress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="DateAdded" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="HasIndexed" Type="Int32" />
     <Property Name="LastIndexedDay" Type="DateTime" Precision="3" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
   </EntityType>
   <EntityContainer Name="SearchNewsCrawlerDataEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="LinksTables" EntityType="Self.LinksTable" />
