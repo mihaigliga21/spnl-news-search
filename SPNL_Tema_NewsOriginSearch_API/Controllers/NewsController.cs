@@ -20,11 +20,9 @@ namespace SPNL_Tema_NewsOriginSearch_API.Controllers
         [System.Web.Http.Route("searchnews")]
         public async Task<List<NewsArticle>> SearchNews(string query, string market = "en-US")
         {
-<<<<<<< HEAD
             BingSearchHelper.SearchApiKey = "";
-=======
+
             BingSearchHelper.SearchApiKey = "API Key";
->>>>>>> 7b7883b720e7019d5f76725d0ad95a25154faa06
             try
             {
                 var bingSearch = await BingSearchHelper.GetNewsSearchResults(query, 1, 0, market);
