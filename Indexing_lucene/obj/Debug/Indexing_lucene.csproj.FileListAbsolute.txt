@@ -19,3 +19,25 @@ C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSear
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\Indexing_lucene\bin\Debug\HtmlAgilityPack.xml
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\Indexing_lucene\obj\Debug\Indexing_lucene.Properties.Resources.resources
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\Indexing_lucene\obj\Debug\Indexing_lucene.csproj.GenerateResource.Cache
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Indexing_lucene.exe.config
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Indexing_lucene.exe
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Indexing_lucene.pdb
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\EntityFramework.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Lucene.Net.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\News_Search_DAL.exe
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\News_Search_DAL.pdb
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\News_Search_DAL.exe.config
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\EntityFramework.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Lucene.Net.pdb
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\bin\Debug\Lucene.Net.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\obj\Debug\Indexing_lucene.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\obj\Debug\Indexing_lucene.Properties.Resources.resources
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\obj\Debug\Indexing_lucene.csproj.GenerateResource.Cache
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\obj\Debug\Indexing_lucene.exe
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\Indexing_lucene\obj\Debug\Indexing_lucene.pdb

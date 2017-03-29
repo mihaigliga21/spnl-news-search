@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPNL_Tema_NewsOriginSearch_API", "SPNL_Tema_NewsOriginSearch_API\SPNL_Tema_NewsOriginSearch_API.csproj", "{7CF48EA0-9569-4141-9FF7-3C6CF2D11AAC}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "source_news_crawler", "Crawler\source_news_crawler.pyproj", "{8796E753-995C-4E51-9B15-49F038C05302}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexing_lucene", "Indexing_lucene\Indexing_lucene.csproj", "{19EB034D-40F2-420F-A6FC-347B909B4513}"
 EndProject
@@ -21,8 +19,6 @@ Global
 		{7CF48EA0-9569-4141-9FF7-3C6CF2D11AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF48EA0-9569-4141-9FF7-3C6CF2D11AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF48EA0-9569-4141-9FF7-3C6CF2D11AAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8796E753-995C-4E51-9B15-49F038C05302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8796E753-995C-4E51-9B15-49F038C05302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EB034D-40F2-420F-A6FC-347B909B4513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19EB034D-40F2-420F-A6FC-347B909B4513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EB034D-40F2-420F-A6FC-347B909B4513}.Release|Any CPU.ActiveCfg = Release|Any CPU

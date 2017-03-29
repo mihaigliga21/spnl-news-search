@@ -8,3 +8,13 @@ C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSear
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.exe
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.pdb
 C:\Users\UserLB50\Documents\Visual Studio 2013\Projects\SPNL_Tema_NewsOriginSearch_API\News_Search_DAL\obj\Debug\News_Search_DAL.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\News_Search_DAL.exe.config
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\News_Search_DAL.exe
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\News_Search_DAL.pdb
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\EntityFramework.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\EntityFramework.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\obj\Debug\News_Search_DAL.csprojResolveAssemblyReference.cache
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\obj\Debug\News_Search_DAL.exe
+C:\Users\Mihai\Google Drive\Documents\GitHub-Repo\spnl-news-search\News_Search_DAL\obj\Debug\News_Search_DAL.pdb
